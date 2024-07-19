@@ -54,7 +54,7 @@ const Navbar = () => {
           className="hidden sm:flex items-center"
         >
           <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
-            <Link href="/">ACCEUIL</Link>
+            <Link href="/">ACCUEIL</Link>
           </li>
           <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
             <Link href="/#apropos">À PROPOS</Link>
@@ -109,7 +109,7 @@ const Navbar = () => {
         >
           <ul>
             <li onClick={handleNav} className="p-4 text-4xl">
-              <Link href="/">ACCEUIL</Link>
+              <Link href="/">ACCUEIL</Link>
             </li>
             <li onClick={handleNav} className="p-4 text-4xl">
               <Link href="/#apropos">À PROPOS</Link>
