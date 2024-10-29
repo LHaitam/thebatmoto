@@ -7,22 +7,22 @@ import Tarification from "../components/Tarification";
 
 export default function Home() {
   return (
-    <div>
-      <div>
-        <Hero
-          heading="LASER RUSH"
-          message="Une nouvelle vision sans addiction."
-        />
-      </div>
-      <div className="pt-6" id="apropos">
-        <Apropos />
-      </div>
-      <div id="faq">
-        <Faq />
-      </div>
-      <div className="pt-6" id="tarification">
-        <Tarification />
-      </div>
-    </div>
+    <>
+      <Hero
+        heading="LASER RUSH"
+        message="Une nouvelle vision sans addiction."
+      />
+      <section>
+        <section className="pt-6" id="apropos">
+          <Apropos />
+        </section>
+        <section id="faq">
+          <Faq />
+        </section>
+        <section className="pt-6" id="tarification">
+          <Tarification />
+        </section>
+      </section>
+    </>
   );
 }

@@ -9,6 +9,7 @@ const Navbar = () => {
   const [textColor, setTextColor] = useState("white");
   const [scrolling, setScrolling] = useState(false);
 
+  
   const handleNav = () => {
     setNav(!nav);
   };
