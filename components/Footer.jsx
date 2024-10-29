@@ -29,7 +29,11 @@ const Footer = () => {
               <ul>
                 <li>
                   <Link href="/">
+<<<<<<< HEAD
                     Accueil
+=======
+                    <a>Accueil</a>
+>>>>>>> 8341a4fc7edf60027117f29de372fef12fe08c91
                   </Link>
                 </li>
                 <li>

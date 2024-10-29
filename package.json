@@ -10,7 +10,10 @@
   },
   "dependencies": {
     "@material-tailwind/react": "^2.1.9",
+<<<<<<< HEAD
     "@next/bundle-analyzer": "^15.0.2",
+=======
+>>>>>>> 8341a4fc7edf60027117f29de372fef12fe08c91
     "emailjs-com": "^3.2.0",
     "lucide-react": "^0.357.0",
     "next": "^15.0.2",

@@ -32,11 +32,17 @@ const HeroCarousel = ({ heading, message }) => {
       {images.map((image, index) => (
         <div
           key={index}
+<<<<<<< HEAD
           className={`absolute inset-0 transition-opacity duration-1000 ${
             index === currentIndex ? "opacity-100" : "opacity-0"
           }`}
         >
           <Image src={image} fill style={{ objectFit: "cover" }} alt={`Slide ${index + 1}`} />
+=======
+          className={`absolute inset-0 transition-opacity duration-1000 ${index === currentIndex ? "opacity-100" : "opacity-0"}`}
+        >
+          <Image src={image} layout="fill" objectFit="cover" alt={`Slide ${index + 1}`} />
+>>>>>>> 8341a4fc7edf60027117f29de372fef12fe08c91
         </div>
       ))}
       <div className="p-5 text-white z-[2] flex flex-col items-center justify-center absolute">
@@ -46,6 +52,7 @@ const HeroCarousel = ({ heading, message }) => {
             Réservez
         </Link>
       </div>
+<<<<<<< HEAD
       <button
         onClick={prevSlide}
         aria-label="Slide précédent"
@@ -60,6 +67,12 @@ const HeroCarousel = ({ heading, message }) => {
         className="absolute top-1/2 right-0 transform -translate-y-1/2 text-4xl text-white text-opacity-20 p-2 hover:bg-opacity-75"
         style={{ zIndex: 100 }}
       >
+=======
+      <button onClick={prevSlide} className="absolute top-1/2 left-0 transform -translate-y-1/2 text-4xl text-white text-opacity-20 p-2 hover:bg-opacity-75" style={{ zIndex: 100 }}>
+        &#10094;
+      </button>
+      <button onClick={nextSlide} className="absolute top-1/2 right-0 transform -translate-y-1/2 text-4xl text-white text-opacity-20 p-2 hover:bg-opacity-75" style={{ zIndex: 100 }}>
+>>>>>>> 8341a4fc7edf60027117f29de372fef12fe08c91
         &#10095;
       </button>
       <div className="absolute bottom-5 left-1/2 transform -translate-x-1/2 flex space-x-3">
@@ -67,10 +80,14 @@ const HeroCarousel = ({ heading, message }) => {
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
+<<<<<<< HEAD
             aria-label={`Aller au slide ${index + 1}`}
             className={`w-3 h-3 rounded-full border-2 ${
               index === currentIndex ? "border-[#c5ae87] bg-[#f3eee7]" : "border-white bg-transparent"
             }`}
+=======
+            className={`w-3 h-3 rounded-full border-2 ${index === currentIndex ? "border-[#c5ae87] bg-[#f3eee7]" : "border-white bg-transparent"}`}
+>>>>>>> 8341a4fc7edf60027117f29de372fef12fe08c91
           />
         ))}
       </div>
