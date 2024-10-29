@@ -2,11 +2,8 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="fr">
       <Head>
-        <title>
-          Laser Rush - Révélez votre Bien-être avec l&apos;Auriculothérapie
-        </title>
         <meta
           name="keywords"
           content="auriculothérapie, obésité morbide, laser, laserthérapie, laser anti-tabac, tabagiste, sevrage tabac, tabagisme passif, arrêt cigarette, tarif auriculothérapie, sans effets secondaires, sans douleurs, sans prise de poids, garantie, médecine alternative, acupuncture auriculaire, bien-être, santé, soulagement douleur, traitement addiction, médecine chinoise, équilibre énergétique, médecine traditionnelle chinoise, médecine douce, acupuncture, traitement naturel, médecine préventive, gestion du stress, relaxation, acupuncture sans aiguilles, santé naturelle, bien-être physique, bien-être mental, thérapie alternative, acupuncture auriculotherapie, médecine complémentaire, santé globale, médecine intégrative, traitement non invasif, harmonisation énergétique, médecine holistique, soulagement du stress, amélioration de la circulation sanguine, relaxation profonde, réduction de l'anxiété, amélioration du sommeil, gestion de la douleur, renforcement du système immunitaire, amélioration de la digestion, réduction de l'inflammation."
@@ -17,6 +14,7 @@ export default function Document() {
         />
         <link rel="icon" href="/favicon.ico" />
 
+        {/* Polices Google */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -33,6 +31,16 @@ export default function Document() {
         />
       </Head>
       <body>
+        {/* Google Tag Manager (noscript) */}
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-K5GCBDD8"
+            height="0"
+            width="0"
+            style={{ display: 'none', visibility: 'hidden' }}
+          ></iframe>
+        </noscript>
+        {/* Fin Google Tag Manager (noscript) */}
         <Main />
         <NextScript />
       </body>
