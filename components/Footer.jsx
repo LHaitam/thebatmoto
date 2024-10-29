@@ -18,9 +18,7 @@ const Footer = () => {
           {/* Logo */}
           <div className="mb-8 md:mb-0">
             <Link href="/">
-              <a className="flex items-center space-x-2">
-                <Image src="/logo.webp" alt="Logo" width={80} height={80} />
-              </a>
+                <Image className="flex items-center space-x-2" src="/logo.webp" alt="Logo" width={80} height={80} />
             </Link>
           </div>
 
@@ -31,27 +29,27 @@ const Footer = () => {
               <ul>
                 <li>
                   <Link href="/">
-                    <a>Acceuil</a>
+                    Accueil
                   </Link>
                 </li>
                 <li>
                   <Link href="/#apropos">
-                    <a>À propos</a>
+                    À propos
                   </Link>
                 </li>
                 <li>
                   <Link href="/#faq">
-                    <a>Faq</a>
+                    Faq
                   </Link>
                 </li>
                 <li>
                   <Link href="/#tarification">
-                    <a>Tarification</a>
+                    Tarification
                   </Link>
                 </li>
                 <li>
                   <Link href="/contact">
-                    <a>Contact</a>
+                    Contact
                   </Link>
                 </li>
                 {/* Add more links as needed */}

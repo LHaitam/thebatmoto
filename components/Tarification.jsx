@@ -54,11 +54,10 @@ const Tarification = () => {
           sera offerte.
         </p>
       </div>
-      <Link href="/contact/#contact">
-        <a className="px-10 py-2 border-2 border-black font-bold mt-10 mb-8 transition duration-300 transform hover:scale-105 hover:bg-white hover:text-[#c5ae87]">
-          {" "}
-          Réservez
-        </a>
+      <Link className="px-10 py-2 border-2 border-black font-bold mt-10 mb-8 transition duration-300 transform hover:scale-105 hover:bg-white hover:text-[#c5ae87]"
+        href="/contact/#contact">
+        {" "}
+        Réservez
       </Link>
     </div>
   );

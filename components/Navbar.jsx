@@ -9,7 +9,6 @@ const Navbar = () => {
   const [textColor, setTextColor] = useState("white");
   const [scrolling, setScrolling] = useState(false);
 
-  
   const handleNav = () => {
     setNav(!nav);
   };
@@ -40,33 +39,43 @@ const Navbar = () => {
       }`}
     >
       <div className="max-w-[1240px] m-auto flex justify-between items-center p-4 text-white">
-        <Link href="/">
-          <Image
-            src="/logo.webp"
-            alt="logo"
-            width={80}
-            height={80}
-            loading="lazy"
-          />
+        <Link href="/" legacyBehavior>
+            <Image
+              src="/logo.webp"
+              alt="logo"
+              width={80}
+              height={80}
+              loading="lazy"
+            />
         </Link>
         <ul
           style={{ color: `${textColor}` }}
           className="hidden sm:flex items-center"
         >
           <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
-            <Link href="/">ACCEUIL</Link>
+            <Link href="/" legacyBehavior>
+              ACCUEIL
+            </Link>
           </li>
           <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
-            <Link href="/#apropos">À PROPOS</Link>
+            <Link href="/#apropos" legacyBehavior>
+              À PROPOS
+            </Link>
           </li>
           <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
-            <Link href="/#faq">FAQ</Link>
+            <Link href="/#faq" legacyBehavior>
+              FAQ
+            </Link>
           </li>
           <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
-            <Link href="/#tarification">TARIFICATION</Link>
+            <Link href="/#tarification" legacyBehavior>
+              TARIFICATION
+            </Link>
           </li>
           <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
-            <Link href="/contact">CONTACT</Link>
+            <Link href="/contact" legacyBehavior>
+              CONTACT
+            </Link>
           </li>
         </ul>
         <div className="hidden sm:flex items-center">
@@ -92,13 +101,14 @@ const Navbar = () => {
         </div>
 
         {/* Mobile Button */}
-        <div onClick={handleNav} className="block sm:hidden z-10">
+        <div onClick={handleNav} className="block sm:hidden z-10" aria-label="Toggle navigation">
           {nav ? (
-            <AiOutlineClose size={40} style={{ color: "white" }} />
+            <AiOutlineClose size={40} style={{ color: "white" }} aria-label="Close menu" />
           ) : (
-            <AiOutlineMenu size={40} style={{ color: `${textColor}` }} />
+            <AiOutlineMenu size={40} style={{ color: `${textColor}` }} aria-label="Open menu" />
           )}
         </div>
+        
         {/* Mobile Menu */}
         <div
           className={
@@ -109,19 +119,29 @@ const Navbar = () => {
         >
           <ul>
             <li onClick={handleNav} className="p-4 text-4xl">
-              <Link href="/">ACCEUIL</Link>
+              <Link href="/" legacyBehavior>
+                ACCUEIL
+              </Link>
             </li>
             <li onClick={handleNav} className="p-4 text-4xl">
-              <Link href="/#apropos">À PROPOS</Link>
+              <Link href="/#apropos" legacyBehavior>
+                À PROPOS
+              </Link>
             </li>
             <li onClick={handleNav} className="p-4 text-4xl">
-              <Link href="/#faq">FAQ</Link>
+              <Link href="/#faq" legacyBehavior>
+                FAQ
+              </Link>
             </li>
             <li onClick={handleNav} className="p-4 text-4xl">
-              <Link href="/#tarification">TARIFICATION</Link>
+              <Link href="/#tarification" legacyBehavior>
+                TARIFICATION
+              </Link>
             </li>
             <li onClick={handleNav} className="p-4 text-4xl">
-              <Link href="/contact">CONTACT</Link>
+              <Link href="/contact" legacyBehavior>
+                CONTACT
+              </Link>
             </li>
           </ul>
         </div>
