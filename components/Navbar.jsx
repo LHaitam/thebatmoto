@@ -9,7 +9,6 @@ const Navbar = () => {
   const [textColor, setTextColor] = useState("white");
   const [scrolling, setScrolling] = useState(false);
 
-  
   const handleNav = () => {
     setNav(!nav);
   };
@@ -54,13 +53,9 @@ const Navbar = () => {
           className="hidden sm:flex items-center"
         >
           <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
-<<<<<<< HEAD
             <Link href="/" legacyBehavior>
               ACCUEIL
             </Link>
-=======
-            <Link href="/">ACCUEIL</Link>
->>>>>>> 8341a4fc7edf60027117f29de372fef12fe08c91
           </li>
           <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
             <Link href="/#apropos" legacyBehavior>
@@ -124,13 +119,9 @@ const Navbar = () => {
         >
           <ul>
             <li onClick={handleNav} className="p-4 text-4xl">
-<<<<<<< HEAD
               <Link href="/" legacyBehavior>
                 ACCUEIL
               </Link>
-=======
-              <Link href="/">ACCUEIL</Link>
->>>>>>> 8341a4fc7edf60027117f29de372fef12fe08c91
             </li>
             <li onClick={handleNav} className="p-4 text-4xl">
               <Link href="/#apropos" legacyBehavior>

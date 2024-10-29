@@ -9,11 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       {/* Google Tag Manager */}
-<<<<<<< HEAD
       <Script async
-=======
-      <Script
->>>>>>> 8341a4fc7edf60027117f29de372fef12fe08c91
         id="google-tag-manager"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
