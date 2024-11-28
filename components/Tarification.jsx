@@ -6,9 +6,9 @@ const Tarification = () => {
     <div className="flex flex-col items-center justify-center">
       <div>
         <h2
-          className="text-center text-6xl mb-[-6] text-[#c5ae87] "
+          className="text-center text-6xl mb-[-6] text-[#f9cb0c] "
           style={{
-            fontFamily: "Sacramento",
+            fontFamily: "Bangers",
             fontStyle: "italic",
           }}
         >
@@ -20,7 +20,7 @@ const Tarification = () => {
           className="text-4xl mt-[-6px]  font-semibold text-center mx-6"
           style={{
             textDecoration: "line-through",
-            textDecorationColor: "#c5ae87",
+            textDecorationColor: "#f9cb0c",
           }}
         >
           195€
@@ -54,7 +54,7 @@ const Tarification = () => {
           sera offerte.
         </p>
       </div>
-      <Link className="px-10 py-2 border-2 border-black font-bold mt-10 mb-8 transition duration-300 transform hover:scale-105 hover:bg-white hover:text-[#c5ae87]"
+      <Link className="px-10 py-2 border-2 border-black font-bold mt-10 mb-8 transition duration-300 transform hover:scale-105 hover:bg-white hover:text-[#f9cb0c]"
         href="/contact/#contact">
         {" "}
         Réservez

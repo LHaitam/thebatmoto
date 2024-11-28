@@ -5,7 +5,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <footer
-      className="bg-[#27221b] text-white py-12"
+      className="bg-[#111111] text-white py-12"
       style={{
         position: "relative",
         bottom: 0,
@@ -26,28 +26,33 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-8">
             <div>
               <h3 className="font-semibold text-lg mb-2">LIENS</h3>
-              <ul>
-                <li>
+              <ul >
+                <li className="hover:text-[#f9cb0c] transition duration-300 transform">
                   <Link href="/">
                     Accueil
                   </Link>
                 </li>
-                <li>
+                <li className="hover:text-[#f9cb0c] transition duration-300 transform">
                   <Link href="/#apropos">
                     À propos
                   </Link>
+                </li >
+                <li className="hover:text-[#f9cb0c] transition duration-300 transform">
+                  <Link href="/#nos-motos">
+                    Nos Motos
+                  </Link>
                 </li>
-                <li>
+                <li className="hover:text-[#f9cb0c] transition duration-300 transform">
                   <Link href="/#faq">
                     Faq
                   </Link>
                 </li>
-                <li>
-                  <Link href="/#tarification">
-                    Tarification
+                <li className="hover:text-[#f9cb0c] transition duration-300 transform">
+                  <Link href="/#avis">
+                    Avis
                   </Link>
                 </li>
-                <li>
+                <li className="hover:text-[#f9cb0c] transition duration-300 transform">
                   <Link href="/contact">
                     Contact
                   </Link>
@@ -65,21 +70,20 @@ const Footer = () => {
             {/* Contact Info */}
             <div>
               <h3 className="font-semibold text-lg mb-2">CONTACT</h3>
-              <p>13 Rue du Clos d&apos;en Haut</p>
-              <p>78700 Conflans-Sainte-Honorine, France</p>
+              <p>MARRAKECH</p>
               <p>
                 Email :{" "}
                 <a
-                  className="hover:text-[#C4AF89] transition duration-300 transform"
+                  className="hover:text-[#f9cb0c] transition duration-300 transform"
                   href="mailto:Contact@laserrush.fr"
                 >
-                  Contact@laserrush.fr
+                  Contact@thebatmoto.com
                 </a>
               </p>
               <p>
                 Téléphone :{" "}
                 <a
-                  className="hover:text-[#C4AF89] transition duration-300 transform"
+                  className="hover:text-[#f9cb0c] transition duration-300 transform"
                   href="tel:+33781195599"
                 >
                   0781195599
@@ -98,12 +102,7 @@ const Footer = () => {
               >
                 <Image src="/insta.svg" alt="Instagram" className="w-6 h-6" width={25} height={25}/>
               </a>
-              <a
-                href="#"
-                className="hover:transition duration-300 transform hover:scale-105"
-              >
-                <Image src="/fb.svg" alt="FaceBook" className="w-6 h-6" width={25} height={25}/>
-              </a>
+
               {/* Add more social media icons as needed */}
             </div>
           </div>

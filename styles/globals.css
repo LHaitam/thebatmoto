@@ -14,7 +14,7 @@ html {
 
 
 ::selection {
-  background-color: #c5ae87; /* Couleur de fond de la sélection */
+  background-color: #f9cb0c; /* Couleur de fond de la sélection */
   color: inherit; /* Couleur du texte */
 }
 
@@ -23,7 +23,7 @@ html {
 
 
 .accordion {
-  background-color: #ede6db;
+  background-color: #e7e7e5;
   color: #000000;
   cursor: pointer;
   padding: 18px;
@@ -44,7 +44,7 @@ html {
 }
 
 .active, .accordion:hover {
-  background-color: #e7decf;
+  background-color: #c5c4be;
 }
 
 .accordion:after {
@@ -61,7 +61,7 @@ html {
 
 .panel {
   padding: 0 18px;
-  background-color: #f3eee7;
+  background-color: #ffffff;
   overflow: hidden;
   max-height: 0;
   transition: max-height 0.2s ease-out;

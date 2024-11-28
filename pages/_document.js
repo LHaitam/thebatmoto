@@ -22,11 +22,11 @@ export default function Document() {
           crossOrigin="true"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Assistant:wght@100;200;300;400;500;600;700;800;900&display=swap"
           rel="stylesheet"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
           rel="stylesheet"
         />
       </Head>
@@ -37,7 +37,7 @@ export default function Document() {
             src="https://www.googletagmanager.com/ns.html?id=GTM-K5GCBDD8"
             height="0"
             width="0"
-            style={{ display: 'none', visibility: 'hidden' }}
+            style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
         {/* Fin Google Tag Manager (noscript) */}

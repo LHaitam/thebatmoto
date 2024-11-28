@@ -6,10 +6,9 @@ const Apropos = () => {
     <div className="flex flex-col items-center justify-center">
       <div>
         <h2
-          className="text-6xl mb-[-6] text-[#c5ae87]"
+          className="text-6xl mb-[-6] text-[#f9cb0c]"
           style={{
-            fontFamily: "Sacramento",
-            fontStyle: "italic",
+            fontFamily: "Bangers",
           }}
         >
           À propos de nous
@@ -17,46 +16,43 @@ const Apropos = () => {
       </div>
       <div>
         <h3 className="text-4xl mt-[-6px] mb-6 font-semibold text-center mx-auto">
-          BIENVENUE CHEZ LASER RUSH
+          BIENVENUE CHEZ THE BAT MOTO
         </h3>
       </div>
       <div className="mx-8">
         <p className="mb-4 text-lg text-justify lg:text-center">
-          La demande d&apos;auriculothérapie n&apos;a jamais été aussi élevée. Souvent,
-          le grand public se trouve désemparé, ne sachant pas vers quel
-          prestataire se tourner ni sur quels critères se baser pour faire le
-          meilleur choix.
+          À Marrakech, une expérience unique vous attend. Que vous soyez un
+          aventurier ou un explorateur urbain, <strong>The Bat Moto</strong> vous offre
+          une opportunité inégalée de parcourir la ville rouge avec style, puissance
+          et l’aura d’un véritable héros.
         </p>
         <p className="mb-4 text-lg text-justify lg:text-center">
-          C&apos;est là que Laser Rush entre en jeu, votre cabinet spécialisé où
-          nous vous proposons une approche holistique pour vous accompagner vers
-          un mieux-être. Forts de notre expertise, nous vous aidons à vous
-          libérer de toutes vos addictions, ainsi que des problèmes liés à
-          l&apos;obésité, au sucre, au sommeil et bien d&apos;autres encore. Notre méthode,
-          issue de la médecine chinoise et dérivée de l&apos;acupuncture, est indolore
-          et efficace contre toute addiction, sans aucun effet secondaire.
+          Inspirée par le légendaire Chevalier Noir, notre agence de location de
+          motos propose des véhicules puissants et élégants, parfaits pour vous
+          offrir une expérience digne d’un super-héros. Chaque moto incarne la
+          sophistication et la performance pour une aventure sur mesure.
         </p>
         <p className="mb-4 text-lg text-justify lg:text-center">
-          Chez Laser Rush, nous nous engageons à vous offrir des résultats
-          durables, garantissant votre satisfaction à chaque étape de votre
-          parcours vers une vie équilibrée et épanouie. Nous vous assurons
-          également un service client exceptionnel et des tarifs compétitifs,
-          pour que vous repartiez avec le sourire.
+          Chez <strong>The Bat Moto</strong>, nous croyons en l'importance d'allier sécurité,
+          confort et design. Notre équipe est dédiée à vous fournir un service
+          impeccable, vous garantissant une expérience mémorable à chaque tour de roue.
         </p>
         <p className="mb-4 text-lg text-justify lg:text-center">
-          De plus, nous vous offrons une garantie de 12 mois ; si une séance ne
-          vous apporte pas les résultats escomptés, nous vous proposons une
-          autre séance gratuitement.
+          De plus, nous proposons des options de location flexibles pour répondre
+          à vos besoins. Que ce soit pour une balade rapide ou une exploration
+          prolongée de Marrakech et de ses environs, nous avons ce qu'il vous faut.
         </p>
       </div>
 
       <div>
         <h3 className="text-4xl mt-[6px] mb-6 font-semibold text-center">
-          Illuminez, libérez, prospérez !
+          Roulez comme un héros, explorez comme une légende !
         </h3>
       </div>
-      <Link className="px-10 py-2 border-2 border-black font-bold mt-10 mb-8 transition duration-300 transform hover:scale-105 hover:bg-white hover:text-[#c5ae87]"
-        href="contact/#contact">
+      <Link
+        className="px-10 py-2 border-2 border-[#f9cb0c] font-bold mt-10 mb-8 transition duration-300 transform hover:scale-105 hover:bg-[#FFD700] hover:text-black"
+        href="/contact/#contact"
+      >
         Réservez
       </Link>
     </div>

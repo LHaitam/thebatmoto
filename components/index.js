@@ -8,15 +8,15 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>LASER RUSH - Une nouvelle vision sans addiction</title>
+        <title>THE BAT MOTO - Une nouvelle vision sans addiction</title>
         <meta
           name="description"
           content="Découvrez les bienfaits de l'auriculothérapie pour traiter l'obésité morbide, les problèmes de sommeil, arrêter le tabac, les drogues et autres addictions."
         />
       </Head>
       <Hero
-        heading="LASER RUSH"
-        message="Une nouvelle vision sans addiction."
+        heading="THE BAT MOTO"
+        message="Vivez l'expérience d'un vrai héros à Marrakech. Explorez la ville avec style et puissance."
       />
       <section>
         <section className="pt-[150px] -mt-[150px]" id="apropos">

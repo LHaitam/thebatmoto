@@ -1,11 +1,5 @@
 "use client";
 import React, { useEffect } from "react";
-import Image from "next/image";
-import {
-  Accordion,
-  AccordionHeader,
-  AccordionBody,
-} from "@material-tailwind/react";
 
 const FaqAccordion = () => {
   useEffect(() => {
@@ -25,83 +19,72 @@ const FaqAccordion = () => {
     }
 
     return () => {
-      // Nettoyer les écouteurs d'événements lors du démontage du composant
       for (let i = 0; i < acc.length; i++) {
         acc[i].removeEventListener("click", handleAccordionClick);
       }
     };
-  }, []); // Exécuter l'effet une seule fois après le rendu initial
+  }, []);
+
   return (
     <section
       id="FAQ"
       className="flex flex-col items-center justify-center overflow-hidden pb-[100px]"
     >
-      <button className="accordion">
-        QU&apos;EST-CE QUE L&apos;AURICULOTHERAPIE ?
-      </button>
+      <button className="accordion">QUI SOMMES-NOUS ?</button>
       <div className="panel">
-        <p className="text-l mt-5 bg-[#f3eee7]/80 text-black lg:mt-[10px] ">
-          L&apos;auriculothérapie, également connue sous le nom
-          d&apos;auriculo-acupuncture ou acupuncture auriculaire, est une forme
-          de médecine alternative qui se concentre sur le traitement des
-          affections en stimulant des points spécifiques sur l&apos;oreille
-          externe.
-          <br /> Cette pratique est basée sur l&apos;idée que l&apos;oreille
-          comporte des zones qui correspondent à différents organes et parties
-          du corps. <br />
-          En stimulant ces zones, on pense pouvoir soulager la douleur, traiter
-          les troubles physiologiques et promouvoir la guérison.
-          <br /> L&apos;auriculothérapie utilise souvent des techniques telles
-          que la pression, l&apos;insertion d&apos;aiguilles minces ou
-          l&apos;utilisation de lasers de bas niveau pour stimuler les points
-          auriculaires.
+        <p className="text-l mt-5 bg-[#ffffff]/80 text-black lg:mt-[10px] ">
+          <strong>The Bat Moto</strong> est votre agence de location de motos à
+          Marrakech, inspirée par l'univers du légendaire Chevalier Noir. Nous
+          proposons des motos élégantes et puissantes pour que vous exploriez
+          Marrakech avec style et performance.
         </p>
       </div>
 
-      <button className="accordion">COMMENT ÇA MARCHE ?</button>
+      <button className="accordion">POURQUOI CHOISIR THE BAT MOTO ?</button>
       <div className="panel">
-        <p className="text-l mt-5 bg-[#f3eee7]/80 text-black lg:mt-[10px] ">
-          L&apos;auriculothérapie fonctionne en stimulant des points spécifiques
-          sur l&apos;oreille externe qui correspondent à différentes parties du
-          corps. Ces points sont stimulés à l&apos;aide de l&apos;utilisation de
-          lasers de bas niveau. Cette stimulation est censée envoyer des signaux
-          au cerveau, qui à son tour libère des substances chimiques telles que
-          les endorphines pour soulager la douleur ou d&apos;autres réponses
-          physiologiques pour aider à traiter diverses affections.
-          L&apos;objectif est de restaurer l&apos;équilibre énergétique dans le
-          corps et de favoriser la guérison.
+        <p className="text-l mt-5 bg-[#ffffff]/80 text-black lg:mt-[10px] ">
+          En choisissant <strong>The Bat Moto</strong>, vous bénéficiez :
+        </p>
+        <ul className="mt-3 list-disc list-inside bg-[#ffffff]/80 text-black lg:mt-[10px] p-4 rounded-lg">
+          <li>De motos de qualité, parfaitement entretenues.</li>
+          <li>D'une expérience unique sous le thème du héros légendaire.</li>
+          <li>D'un service client exceptionnel pour répondre à vos besoins.</li>
+        </ul>
+      </div>
+
+      <button className="accordion">QUI PEUT LOUER UNE MOTO ?</button>
+      <div className="panel">
+        <p className="text-l mt-5 bg-[#ffffff]/80 text-black lg:mt-[10px] ">
+          Toute personne âgée de 18 ans ou plus, possédant un permis de conduire
+          valide, peut louer une moto chez <strong>The Bat Moto</strong>. Nous
+          accueillons aussi bien les résidents locaux que les touristes en quête
+          d'aventure.
         </p>
       </div>
 
-      <button className="accordion">À QUI EST-ELLE DESTINÉE ?</button>
+      <button className="accordion">QUELLES SONT NOS GARANTIES ?</button>
       <div className="panel">
-        <p className="text-l mt-5 bg-[#f3eee7]/80 text-black lg:mt-[10px] ">
-          L&apos;auriculothérapie est destinée à toute personne souhaitant
-          bénéficier d&apos;une approche non invasive et efficace pour traiter
-          divers problèmes de santé, notamment les addictions, les douleurs
-          chroniques, les troubles du sommeil, et bien d&apos;autres encore.
+        <p className="text-l mt-5 bg-[#ffffff]/80 text-black lg:mt-[10px] ">
+          Nous offrons :
         </p>
+        <ul className="mt-3 list-disc list-inside bg-[#ffffff]/80 text-black lg:mt-[10px] p-4 rounded-lg">
+          <li>Des motos entretenues et sécurisées.</li>
+          <li>Un équipement optionnel, comme les casques et protections.</li>
+          <li>Une assistance 24h/24 en cas de problème.</li>
+        </ul>
       </div>
 
-      <button className="accordion">QUELS SONT LES EFFETS SECONDAIRES ?</button>
+      <button className="accordion">COMMENT RÉSERVER UNE MOTO ?</button>
       <div className="panel">
-        <p className="text-l mt-5 bg-[#f3eee7]/80 text-black lg:mt-[10px] ">
-          Il n&apos;y a aucun effet secondaire et le traitement est immédiat.*
-          <br />
-          <br />
-          *Les résultats individuels peuvent varier.
+        <p className="text-l mt-5 bg-[#ffffff]/80 text-black lg:mt-[10px] ">
+          La réservation est simple et rapide. Vous pouvez :
         </p>
-      </div>
-
-      <button className="accordion">COMBIEN DE TEMPS ÇA DURE ?</button>
-      <div className="panel">
-        <p className="text-l mt-5 bg-[#f3eee7]/80 text-black lg:mt-[10px] ">
-          Notre thérapie peut vous aider après une seule session de laser non
-          invasive.*
-          <br />
-          <br />
-          *Les résultats individuels peuvent varier.
-        </p>
+        <ul className="mt-3 list-disc list-inside bg-[#ffffff]/80 text-black lg:mt-[10px] p-4 rounded-lg">
+          <li>Réserver en ligne via notre site web.</li>
+          <li>Nous appeler directement.</li>
+          <li>Visiter notre agence à Marrakech.</li>
+        </ul>
+        <p className="mt-3">N'attendez plus pour vivre une expérience inoubliable sur les routes de Marrakech !</p>
       </div>
     </section>
   );

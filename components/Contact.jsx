@@ -31,9 +31,9 @@ const Contact = () => {
       <div className="flex flex-col items-center justify-center">
         <div>
           <h2
-            className="text-5xl mb-[-6] text-[#c5ae87] "
+            className="text-5xl mb-[-6] text-[#f9cb0c] "
             style={{
-              fontFamily: "Sacramento",
+              fontFamily: "Bangers",
               fontStyle: "italic",
             }}
           >
@@ -42,13 +42,13 @@ const Contact = () => {
         </div>
         <div>
           <h3 className="text-4xl mt-[-6px] mb-6 font-semibold text-center mx-6">
-            BIENVENUE CHEZ LASER RUSH
+          BIENVENUE CHEZ THE BAT MOTO
           </h3>
         </div>
         <div className="mx-8">
           <p className="mb-4 text-center text-lg">
-            Pour toute prise de contact ou rendez-vous, veuillez remplir et
-            envoyer ce formulaire ci-dessus ou appeler le{" "}
+          Vous avez des questions ou souhaitez réserver une moto ? Remplissez le formulaire ci-dessous
+          ou contactez-nous directement par téléphone au{" "}
             <a
               style={{
                 fontFamily: "Raleway",
