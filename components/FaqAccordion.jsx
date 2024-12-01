@@ -34,7 +34,7 @@ const FaqAccordion = () => {
       <div className="panel">
         <p className="text-l mt-5 bg-[#ffffff]/80 text-black lg:mt-[10px] ">
           <strong>The Bat Moto</strong> est votre agence de location de motos à
-          Marrakech, inspirée par l'univers du légendaire Chevalier Noir. Nous
+          Marrakech, inspirée par l&apos;univers du légendaire Chevalier Noir. Nous
           proposons des motos élégantes et puissantes pour que vous exploriez
           Marrakech avec style et performance.
         </p>
@@ -47,8 +47,8 @@ const FaqAccordion = () => {
         </p>
         <ul className="mt-3 list-disc list-inside bg-[#ffffff]/80 text-black lg:mt-[10px] p-4 rounded-lg">
           <li>De motos de qualité, parfaitement entretenues.</li>
-          <li>D'une expérience unique sous le thème du héros légendaire.</li>
-          <li>D'un service client exceptionnel pour répondre à vos besoins.</li>
+          <li>D&apos;une expérience unique sous le thème du héros légendaire.</li>
+          <li>D&apos;un service client exceptionnel pour répondre à vos besoins.</li>
         </ul>
       </div>
 
@@ -58,7 +58,7 @@ const FaqAccordion = () => {
           Toute personne âgée de 18 ans ou plus, possédant un permis de conduire
           valide, peut louer une moto chez <strong>The Bat Moto</strong>. Nous
           accueillons aussi bien les résidents locaux que les touristes en quête
-          d'aventure.
+          d&apos;aventure.
         </p>
       </div>
 
@@ -84,7 +84,7 @@ const FaqAccordion = () => {
           <li>Nous appeler directement.</li>
           <li>Visiter notre agence à Marrakech.</li>
         </ul>
-        <p className="mt-3">N'attendez plus pour vivre une expérience inoubliable sur les routes de Marrakech !</p>
+        <p className="mt-3">N&apos;attendez plus pour vivre une expérience inoubliable sur les routes de Marrakech !</p>
       </div>
     </section>
   );

@@ -9,6 +9,7 @@ const Apropos = () => {
           className="text-6xl mb-[-6] text-[#f9cb0c]"
           style={{
             fontFamily: "Bangers",
+            fontStyle: "italic",
           }}
         >
           À propos de nous
@@ -33,14 +34,14 @@ const Apropos = () => {
           sophistication et la performance pour une aventure sur mesure.
         </p>
         <p className="mb-4 text-lg text-justify lg:text-center">
-          Chez <strong>The Bat Moto</strong>, nous croyons en l'importance d'allier sécurité,
+          Chez <strong>The Bat Moto</strong>, nous croyons en l&apos;importance d&apos;allier sécurité,
           confort et design. Notre équipe est dédiée à vous fournir un service
           impeccable, vous garantissant une expérience mémorable à chaque tour de roue.
         </p>
         <p className="mb-4 text-lg text-justify lg:text-center">
           De plus, nous proposons des options de location flexibles pour répondre
           à vos besoins. Que ce soit pour une balade rapide ou une exploration
-          prolongée de Marrakech et de ses environs, nous avons ce qu'il vous faut.
+          prolongée de Marrakech et de ses environs, nous avons ce qu&apos;il vous faut.
         </p>
       </div>
 

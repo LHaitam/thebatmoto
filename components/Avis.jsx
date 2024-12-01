@@ -11,13 +11,13 @@ const avis = [
   {
     name: "Sarah M.",
     comment:
-      "Service client impeccable et les motos sont parfaites pour explorer Marrakech. Bravo à l'équipe !",
+      "Service client impeccable et les motos sont parfaites pour explorer Marrakech. Bravo à léquipe !",
     rating: 4,
   },
   {
     name: "Youssef L.",
     comment:
-      "Je suis ravi d'avoir loué une moto chez The Bat Moto. Super qualité et une aventure mémorable.",
+      "Je suis ravi davoir loué une moto chez The Bat Moto. Super qualité et une aventure mémorable.",
     rating: 5,
   },
   {
@@ -46,7 +46,7 @@ const Avis = () => {
 
       {/* Texte introductif */}
       <p className="text-center text-lg mb-8 max-w-3xl">
-        Chez <strong>The Bat Moto</strong>, nous nous engageons à offrir une expérience exceptionnelle à tous nos clients. Voici ce qu'ils pensent de nos services.
+        Chez <strong>The Bat Moto</strong>, nous nous engageons à offrir une expérience exceptionnelle à tous nos clients. Voici ce qu&apos;ils pensent de nos services.
       </p>
 
       {/* Liste des avis */}

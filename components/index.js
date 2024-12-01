@@ -11,12 +11,12 @@ export default function Home() {
         <title>THE BAT MOTO - Une nouvelle vision sans addiction</title>
         <meta
           name="description"
-          content="Découvrez les bienfaits de l'auriculothérapie pour traiter l'obésité morbide, les problèmes de sommeil, arrêter le tabac, les drogues et autres addictions."
+          content="Découvrez les bienfaits de l&apos;auriculothérapie pour traiter l&apos;obésité morbide, les problèmes de sommeil, arrêter le tabac, les drogues et autres addictions."
         />
       </Head>
       <Hero
         heading="THE BAT MOTO"
-        message="Vivez l'expérience d'un vrai héros à Marrakech. Explorez la ville avec style et puissance."
+        message="Vivez l&apos;expérience d&apos;un vrai héros à Marrakech. Explorez la ville avec style et puissance."
       />
       <section>
         <section className="pt-[150px] -mt-[150px]" id="apropos">

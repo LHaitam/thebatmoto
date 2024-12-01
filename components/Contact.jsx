@@ -21,7 +21,7 @@ const Contact = () => {
         },
         (error) => {
           console.log(error.text);
-          alert("Une erreur s'est produite, veuillez réessayer.");
+          alert("Une erreur s&apos;est produite, veuillez réessayer.");
         }
       );
   };

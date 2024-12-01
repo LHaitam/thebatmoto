@@ -51,7 +51,7 @@ const Navbar = () => {
           style={{ color: `${textColor}` }}
           className="hidden sm:flex items-center"
         >
-          <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
+          <li className="p-4 hover:text-[#f9cb0c] transition duration-300 transform">
             <Link href="/" legacyBehavior>
               ACCUEIL
             </Link>
