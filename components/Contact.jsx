@@ -9,8 +9,8 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_zwlhbmy", // Remplacez par votre service ID EmailJS
-        "template_rnsuh32", // Remplacez par votre template ID EmailJS
+        "service_nkhelwk", // Remplacez par votre service ID EmailJS
+        "template_n2997ar", // Remplacez par votre template ID EmailJS
         form.current,
         "jgrb235EjH_VJmyuM" // Remplacez par votre user ID EmailJS
       )
@@ -34,7 +34,6 @@ const Contact = () => {
             className="text-5xl mb-[-6] text-[#f9cb0c] "
             style={{
               fontFamily: "Bangers",
-              fontStyle: "italic",
             }}
           >
             Contactez-Nous

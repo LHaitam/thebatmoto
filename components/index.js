@@ -8,10 +8,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>THE BAT MOTO - Une nouvelle vision sans addiction</title>
+        <title>THE BAT MOTO - Explorez Marrakech avec style</title>
         <meta
           name="description"
-          content="Découvrez les bienfaits de l&apos;auriculothérapie pour traiter l&apos;obésité morbide, les problèmes de sommeil, arrêter le tabac, les drogues et autres addictions."
+          content="The Bat Moto, votre agence de location de motos à Marrakech. Offrez-vous une expérience unique et mémorable en explorant la ville rouge et ses environs avec nos motos élégantes et puissantes."
         />
       </Head>
       <Hero

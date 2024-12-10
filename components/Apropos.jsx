@@ -12,43 +12,25 @@ const Apropos = () => {
             fontStyle: "italic",
           }}
         >
-          À propos de nous
+          À propos de The Bat Moto 🦇🛵
         </h2>
-      </div>
-      <div>
-        <h3 className="text-4xl mt-[-6px] mb-6 font-semibold text-center mx-auto">
-          BIENVENUE CHEZ THE BAT MOTO
-        </h3>
       </div>
       <div className="mx-8">
         <p className="mb-4 text-lg text-justify lg:text-center">
-          À Marrakech, une expérience unique vous attend. Que vous soyez un
-          aventurier ou un explorateur urbain, <strong>The Bat Moto</strong> vous offre
-          une opportunité inégalée de parcourir la ville rouge avec style, puissance
-          et l’aura d’un véritable héros.
+          Bienvenue chez <strong>The Bat Moto</strong>, votre agence de location de motos à Marrakech. Inspirée par l’esprit d’aventure et de liberté, notre mission est de vous offrir une expérience unique pour explorer la magnifique ville rouge et ses environs.
         </p>
         <p className="mb-4 text-lg text-justify lg:text-center">
-          Inspirée par le légendaire Chevalier Noir, notre agence de location de
-          motos propose des véhicules puissants et élégants, parfaits pour vous
-          offrir une expérience digne d’un super-héros. Chaque moto incarne la
-          sophistication et la performance pour une aventure sur mesure.
+          Que vous souhaitiez parcourir les petites ruelles de l’ancienne Médina, découvrir les paysages époustouflants des montagnes de l’Atlas ou vous aventurer dans les palmeraies, nos motos fiables et stylées sont là pour vous accompagner.
         </p>
         <p className="mb-4 text-lg text-justify lg:text-center">
-          Chez <strong>The Bat Moto</strong>, nous croyons en l&apos;importance d&apos;allier sécurité,
-          confort et design. Notre équipe est dédiée à vous fournir un service
-          impeccable, vous garantissant une expérience mémorable à chaque tour de roue.
+          Nous comprenons l’importance de votre temps. Avec <strong>The Bat Moto</strong>, évitez les longues attentes de taxi et profitez d’une mobilité totale pour voyager à votre rythme, en toute liberté et sécurité.
         </p>
         <p className="mb-4 text-lg text-justify lg:text-center">
-          De plus, nous proposons des options de location flexibles pour répondre
-          à vos besoins. Que ce soit pour une balade rapide ou une exploration
-          prolongée de Marrakech et de ses environs, nous avons ce qu&apos;il vous faut.
+          Chez <strong>The Bat Moto</strong>, chaque client est un héros. Nous mettons un point d’honneur à vous offrir un service personnalisé, des véhicules parfaitement entretenus et une assistance professionnelle tout au long de votre aventure.
         </p>
-      </div>
-
-      <div>
-        <h3 className="text-4xl mt-[6px] mb-6 font-semibold text-center">
-          Roulez comme un héros, explorez comme une légende !
-        </h3>
+        <p className="mb-4 text-lg text-justify lg:text-center">
+          Prêt à vivre Marrakech autrement ? Enfourchez une de nos motos et laissez l’aventure commencer 🦇🛵
+        </p>
       </div>
       <Link
         className="px-10 py-2 border-2 border-[#f9cb0c] font-bold mt-10 mb-8 transition duration-300 transform hover:scale-105 hover:bg-[#FFD700] hover:text-black"

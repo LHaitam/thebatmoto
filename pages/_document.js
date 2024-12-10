@@ -6,11 +6,11 @@ export default function Document() {
       <Head>
         <meta
           name="keywords"
-          content="auriculothérapie, obésité morbide, laser, laserthérapie, laser anti-tabac, tabagiste, sevrage tabac, tabagisme passif, arrêt cigarette, tarif auriculothérapie, sans effets secondaires, sans douleurs, sans prise de poids, garantie, médecine alternative, acupuncture auriculaire, bien-être, santé, soulagement douleur, traitement addiction, médecine chinoise, équilibre énergétique, médecine traditionnelle chinoise, médecine douce, acupuncture, traitement naturel, médecine préventive, gestion du stress, relaxation, acupuncture sans aiguilles, santé naturelle, bien-être physique, bien-être mental, thérapie alternative, acupuncture auriculotherapie, médecine complémentaire, santé globale, médecine intégrative, traitement non invasif, harmonisation énergétique, médecine holistique, soulagement du stress, amélioration de la circulation sanguine, relaxation profonde, réduction de l'anxiété, amélioration du sommeil, gestion de la douleur, renforcement du système immunitaire, amélioration de la digestion, réduction de l'inflammation."
+          content="location motos Marrakech, agence location motos, The Bat Moto, exploration Marrakech, motos fiables, aventures urbaines, liberté de déplacement, tourisme Marrakech, motos puissantes, ruelles de la Médina, paysages Atlas, mobilité Marrakech, location moto économique, location moto flexible, service professionnel moto, sécurité moto Marrakech, aventure sur deux roues, service client personnalisé, motos bien entretenues"
         />
         <meta
           name="description"
-          content="Découvrez les bienfaits de l'auriculothérapie pour traiter l'obésité morbide, les problèmes de sommeil, arrêter le tabac, les drogues et toute autre dépendances ou addiction ainsi que pour soulager les douleurs, sans effets secondaires ni prise de poids. Profitez d'un service professionnel et d'une garantie de résultats avec notre cabinet spécialisé."
+          content="Découvrez The Bat Moto, votre agence de location de motos à Marrakech. Explorez la ville rouge et ses environs avec style et puissance grâce à nos motos fiables, stylées et parfaitement entretenues. Une expérience unique pour les aventuriers urbains et les explorateurs de la nature."
         />
         <link rel="icon" href="/favicon.ico" />
 
@@ -31,16 +31,6 @@ export default function Document() {
         />
       </Head>
       <body>
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-K5GCBDD8"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          ></iframe>
-        </noscript>
-        {/* Fin Google Tag Manager (noscript) */}
         <Main />
         <NextScript />
       </body>
