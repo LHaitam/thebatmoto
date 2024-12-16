@@ -51,32 +51,32 @@ const Navbar = () => {
           style={{ color: `${textColor}` }}
           className="hidden sm:flex items-center"
         >
-          <li className="p-4 hover:text-[#f9cb0c] transition duration-300 transform">
+          <li className="p-4 hover:text-[#f9cb0c] transition duration-300 transform " >
             <Link href="/" legacyBehavior>
               ACCUEIL
             </Link>
           </li>
-          <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
+          <li className="p-4 hover:text-[#f9cb0c] transition duration-300 transform">
             <Link href="/#apropos" legacyBehavior>
               À PROPOS
             </Link>
           </li>
-          <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
+          <li className="p-4 hover:text-[#f9cb0c] transition duration-300 transform">
             <Link href="/#nos-motos" legacyBehavior>
               NOS MOTOS
             </Link>
           </li>
-          <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
+          <li className="p-4 hover:text-[#f9cb0c] transition duration-300 transform">
             <Link href="/#faq" legacyBehavior>
               FAQ
             </Link>
           </li>
-          <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
+          <li className="p-4 hover:text-[#f9cb0c] transition duration-300 transform">
             <Link href="/#avis" legacyBehavior>
               AVIS
             </Link>
           </li>
-          <li className="p-4 hover:text-[#C4AF89] transition duration-300 transform">
+          <li className="p-4 hover:text-[#f9cb0c] transition duration-300 transform">
             <Link href="/contact" legacyBehavior>
               CONTACT
             </Link>
@@ -99,7 +99,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#8c7e62] text-center ease-in duration-300"
+              ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#333337] text-center ease-in duration-300"
               : "sm:hidden absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-black text-center ease-in duration-300"
           }
         >

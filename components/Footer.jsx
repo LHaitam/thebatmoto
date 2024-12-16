@@ -75,9 +75,9 @@ const Footer = () => {
                 Email :{" "}
                 <a
                   className="hover:text-[#f9cb0c] transition duration-300 transform"
-                  href="mailto:Contact@laserrush.fr"
+                  href="mailto:Contact@thebatmoto-marrakech.com"
                 >
-                  Contact@thebatmoto.com
+                  Contact@thebatmoto-marrakech.com
                 </a>
               </p>
               <p>
@@ -97,10 +97,16 @@ const Footer = () => {
             <h3 className="font-semibold text-lg mb-2">Réseaux Sociaux</h3>
             <div className="flex space-x-4 flex justify-center items-center">
               <a
-                href="#"
+                href="https://www.instagram.com/the_bat_moto_marrakech/"
                 className="hover:transition duration-300 transform hover:scale-105"
               >
                 <Image src="/insta.svg" alt="Instagram" className="w-6 h-6" width={25} height={25}/>
+              </a>
+              <a
+                href="https://web.facebook.com/profile.php?id=61554856646747"
+                className="hover:transition duration-300 transform hover:scale-105"
+              >
+                <Image src="/fb.svg" alt="FaceBook" className="w-6 h-6" width={25} height={25}/>
               </a>
 
               {/* Add more social media icons as needed */}

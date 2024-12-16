@@ -5,20 +5,19 @@ import Faq from "../components/Faq";
 import NosMotos from "../components/NosMotos";
 import Avis from "../components/Avis";
 
-
 export default function Home() {
   return (
     <>
       <Head>
-        <title>THE BAT MOTO - Une nouvelle vision sans addiction</title>
+        <title>The Bat Moto - Location de motos à Marrakech</title>
         <meta
           name="description"
-          content="Découvrez les bienfaits de l&apos;auriculothérapie pour traiter l&apos;obésité morbide, les problèmes de sommeil, arrêter le tabac, les drogues et autres addictions."
+          content="Découvrez The Bat Moto, votre agence de location de motos à Marrakech. Profitez d'une expérience unique avec des motos puissantes et un service de qualité."
         />
       </Head>
       <Hero
         heading="THE BAT MOTO"
-        message="Vivez l&apos;expérience d&apos;un vrai héros à Marrakech. Explorez la ville avec style et puissance."
+        message="Plongez dans l'univers du héros. Louez une moto et découvrez Marrakech avec style, puissance et liberté."
       />
       <section>
         <section className="pt-[150px] -mt-[150px]" id="apropos">

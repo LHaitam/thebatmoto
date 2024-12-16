@@ -6,10 +6,8 @@ const Apropos = () => {
     <div className="flex flex-col items-center justify-center">
       <div>
         <h2
-          className="text-6xl mb-[-6] text-[#f9cb0c]"
-          style={{
+          className="text-6xl text-[#f9cb0c] text-center mx-10 my-10  "style={{
             fontFamily: "Bangers",
-            fontStyle: "italic",
           }}
         >
           À propos de The Bat Moto 🦇🛵

@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image"; // Import Image
 
 const motos = [
   {
@@ -25,7 +26,7 @@ const motos = [
   },
   {
     name: "Leonardo Enzo",
-    image: "/leonardo-enzo.jpg",
+    image: "/leonardo.jpeg",
     description:
       "Un modèle unique combinant style futuriste et performance exceptionnelle.",
     features: ["Design avant-gardiste", "Puissance impressionnante", "Équipements haut de gamme"],
@@ -57,10 +58,13 @@ const NosMotos = () => {
           >
             {/* Image avec overlay et titre */}
             <div className="relative">
-              <img
+              <Image
                 src={moto.image}
                 alt={moto.name}
-                className="w-full h-48 object-cover"
+                layout="responsive" // Makes the image responsive
+                width={500} // Set width for aspect ratio (adjustable)
+                height={300} // Set height for aspect ratio
+                objectFit="cover" // Keeps the image well-fitted
               />
               <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
                 <h3 className="text-2xl font-bold text-white">{moto.name}</h3>
