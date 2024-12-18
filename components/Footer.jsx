@@ -64,13 +64,13 @@ const Footer = () => {
             {/* Opening Hours */}
             <div>
               <h3 className="font-semibold text-lg mb-2">HEURES D&apos;OUVERTURE</h3>
-              <p>Lun - Dim: 8:00 - 20:00 </p>
+              <p>Lun - Dim: 11:00 - 00:00 </p>
             </div>
 
             {/* Contact Info */}
             <div>
               <h3 className="font-semibold text-lg mb-2">CONTACT</h3>
-              <p>MARRAKECH</p>
+              <p>MARRAKECH / GUELIZ</p>
               <p>
                 Email :{" "}
                 <a
