@@ -26,7 +26,7 @@ const motos = [
   },
   {
     name: "Leonardo Enzo",
-    image: "/leonardo.jpeg",
+    image: "/leonardo.webp",
     description:
       "Un modèle unique combinant style futuriste et performance exceptionnelle.",
     features: ["Design avant-gardiste", "Puissance impressionnante", "Équipements haut de gamme"],
