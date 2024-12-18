@@ -56,9 +56,9 @@ const Contact = () => {
                 fontFamily: "Raleway",
               }}
               className="hover:text-[#f9cb0c] transition transform"
-              href="tel:+33781195599"
+              href="tel:+212606860775"
             >
-              0781195599
+              +212 6 06 86 07 75
             </a>
             .
           </p>

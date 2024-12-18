@@ -9,19 +9,19 @@ const avis = [
     rating: 5,
   },
   {
-    name: "Sarah M.",
+    name: "Emily R.",
     comment:
-      "Service client impeccable et les motos sont parfaites pour explorer Marrakech. Bravo à léquipe !",
+      "Service client impeccable et les motos sont parfaites pour explorer Marrakech. Bravo à l'équipe !",
     rating: 4,
   },
   {
-    name: "Youssef L.",
+    name: "John D.",
     comment:
-      "Je suis ravi davoir loué une moto chez The Bat Moto. Super qualité et une aventure mémorable.",
+      "Je suis ravi d'avoir loué une moto chez The Bat Moto. Super qualité et une aventure mémorable.",
     rating: 5,
   },
   {
-    name: "Nadia K.",
+    name: "Sofia L.",
     comment:
       "Tout était au top ! Facilité de réservation, motos performantes et service impeccable.",
     rating: 5,
@@ -46,7 +46,8 @@ const Avis = () => {
 
       {/* Texte introductif */}
       <p className="text-center text-lg mb-8 max-w-3xl">
-        Chez <strong>The Bat Moto</strong>, nous nous engageons à offrir une expérience exceptionnelle à tous nos clients. Voici ce qu&apos;ils pensent de nos services.
+        Chez <strong>The Bat Moto</strong>, nous nous engageons à offrir une
+        expérience exceptionnelle à tous nos clients. Voici ce qu&apos;ils pensent de nos services.
       </p>
 
       {/* Liste des avis */}
